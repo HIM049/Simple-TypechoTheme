@@ -1,0 +1,68 @@
+.about-background-div{
+    padding: 10px 0 10px 0;
+}
+.about-background{
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    width: calc(100% - 20px);
+    max-width: 1000px;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+}
+.about-body{
+    padding: 10px;
+    width: calc(100% - 20px);
+    margin: 0 auto;
+}
+.about-article{
+    background: #fff;
+    border-radius: 10px;
+    width: 65%;
+    display: inline-block;
+    box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+}
+.about-article-body{
+    padding: 20px;
+}
+.about-article-title{
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.about-sidebar{
+    width: 35%;
+    float: right;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+/*--------- 友链部分CSS ---------*/
+
+.friendlink-div{
+    padding: 15px;
+}
+.friendlink-title-div p{
+    font-size: 24px;
+    font-weight: 800;
+    margin: 5px 15px;
+}
+.friendlink-linkbox{
+    display: flex;
+    padding: 11px;
+}
+.friend-avatar-img{
+    border-radius: 10px 0 0 10px;
+    height: 70px;
+    width: 70px;
+    background: #fff;
+    overflow: hidden;
+}
+.friend-linktext-div{
+    background: #fff;
+    height: 70px;
+    width: 20%;
+    border-radius: 0 10px 10px 0;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
