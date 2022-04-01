@@ -31,13 +31,17 @@ html{
     margin: 0;
     padding: 0;
 }
+a:link{ color: #2c8cd8; } /* 未被访问的链接 */
+a:visited{ color: #2c8cd8; } /* 已被访问的链接 */
+a:hover{ color: #aaa; } /* 鼠标悬浮在上的链接 */
+a:active{ color: #aaa; } /* 被点击时的链接 */
 /* --顶快捷栏------------------------------ */
 
 .navbar{
     height: 55px; 
     width: 100%; 
     background: var(--card-background);
-    box-shadow: 0 0 10px rgb(0 0 0 / 30%);
+    box-shadow: 0 10px 10px rgb(0 0 0 / 30%);
     backdrop-filter: blur(9px);
 }
 .hd-title{
@@ -72,7 +76,7 @@ html{
 .footer{
     height: 100px; 
     width: 100%; 
-    background: #333; 
+    background: #353535; 
     margin-top: -15px; 
     line-height: 100px; 
     position:absolute;
