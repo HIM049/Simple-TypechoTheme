@@ -1,4 +1,4 @@
-# JUST-Theme
+# Simple-TypechoTheme
 一个自行编写的简洁主题。来源于个人的需求。随时更新！
 
 ---
