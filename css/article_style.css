@@ -1,6 +1,5 @@
 .post-out-div img{ /* 图片样式 */
     border: none;
-    width: 100%;
     margin: 10px auto;
     border-radius: 5px;
 }
@@ -83,4 +82,11 @@
 }
 .post-out-div table tr{ /* 表格内容输出样式 */
     padding: 5px 10px;
+}
+.post-out-div p{ /* P标签样式 */
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 }
