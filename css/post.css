@@ -40,12 +40,6 @@ a {
     line-height: 22px;
     margin: 20px;
 }
-.post-out a:link{ /* 未被访问的链接 */
-    color: #2c8cd8
-}
-.post-out a:hover { /* 鼠标悬浮在上的链接 */
-    color: #aaa
-}
 @media(max-width: 600px){
     .sidebar{
         width: 100%;
