@@ -1,5 +1,7 @@
 # Simple-TypechoTheme
-一个自行编写的简洁主题。来源于个人的需求。随时更新！
+一个自行编写的简洁主题。来源于个人的需求。随时更新！  
+  
+  
 ![预览图](https://user-images.githubusercontent.com/67405384/161282036-33554f74-e004-4f95-825b-a02ff50f7d7b.png)
 
 ---
