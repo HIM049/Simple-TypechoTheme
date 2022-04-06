@@ -1,3 +1,7 @@
+a:link{ color: #2c8cd8; } /* 未被访问的链接 */
+a:visited{ color: #2c8cd8; } /* 已被访问的链接 */
+a:hover{ color: #aaa; } /* 鼠标悬浮在上的链接 */
+a:active{ color: #aaa; } /* 被点击时的链接 */
 a {
     transition: 0.4s;
 }
