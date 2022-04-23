@@ -24,7 +24,11 @@ html{
     padding: 0;
 }
 /* --顶快捷栏------------------------------ */
-
+.navbar a:link{ color: #fff; }
+.navbar a:visited{ color: #fff; }
+.navbar a:hover{ color: #fff; text-shadow: 0 0 10px #fff;}
+.navbar a:active{ color: #fff; }
+.hd-nav ul li a:hover{ color: #fff; text-shadow: 0 0 10px #fff;}
 .navbar{
     height: 55px; 
     width: 100%; 
