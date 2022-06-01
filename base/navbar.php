@@ -8,7 +8,7 @@
         <nav class="hd-nav">
             <ul>
                 <li><a href="<?php $this->options->siteUrl(); ?>">首页</a></li>
-                <li><?php $this->widget('Widget_Contents_Page_List') ->parse('<a href="{permalink}">{title}</a>'); ?></li>
+                <?php $this->widget('Widget_Contents_Page_List') ->parse('<li><a href="{permalink}">{title}</a></li>'); ?>
             </ul>
         </nav>
     </div>
