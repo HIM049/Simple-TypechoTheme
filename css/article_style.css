@@ -2,6 +2,7 @@
     border: none;
     margin: 10px auto;
     border-radius: 5px;
+    max-width: 100%;
 }
 .post-out-div ol{ /* 有序列表样式 */
     list-style: decimal;
